@@ -1,0 +1,10 @@
+WASD-kretanje po sceni i platformi.
+Visina kamere je fiksna, i nije moguce odlebdeti ili pasti sa platforme.
+
+Napredne tehnike koje su implementirane
+    iz grupe A -CUBEMAP
+        Pojavljuje se zvezdano nebo u trenutku kada je sunce ispod odredjene visine
+    iz grupe B - Normal mapping i parallax mapping na podlogu.
+
+Implementirano je direkciono svetlo i 4 point osvetljenja. Na sceni se smenjuju dan i noc.
+Point osvetljenje se pali nocu, a direkciono tada nestaje.
