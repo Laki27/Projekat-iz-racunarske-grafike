@@ -97,7 +97,7 @@ vec3 CalcDirLight(DirLight direkciono, vec3 normal, vec3 viewDir){
         vec3 ambient = direkciono.ambient * vec3(texture(diffuseMap, fs_in.TexCoords));
         vec3 diffuse = direkciono.diffuse * diff * vec3(texture(diffuseMap, fs_in.TexCoords));
         vec3 specular = direkciono.specular * spec * vec3(texture(specularMap, fs_in.TexCoords));
-        return (vec3(0.6)*ambient + vec3(0.8)*diffuse + specular*1.8);
+        return (vec3(0.6)*ambient + vec3(0.5)*diffuse + specular*vec3(1.8));
 }
 
 vec3 CalcPointLight(PointLight na_sceni, vec3 normal, vec3 fragPos, vec3 viewDir, vec3 tlp, vec3 pozicija_svetla){
