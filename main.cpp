@@ -397,7 +397,7 @@ int main() {
         podloga.setMat4("model", model);
         podloga.setVec3("viewPos", cameraPos);
         podloga.setVec3("direkciono.direction", glm::vec3(-16*korekcija, -80*visina_sunca, -80*korekcija));
-        podloga.setVec3("direkciono.ambient", nebo+glm::vec3(0.5f));
+        podloga.setVec3("direkciono.ambient", nebo);
         podloga.setVec3("direkciono.diffuse", direkciono_difuzno);
         podloga.setVec3("direkciono.specular", direkciono_specular);
 
