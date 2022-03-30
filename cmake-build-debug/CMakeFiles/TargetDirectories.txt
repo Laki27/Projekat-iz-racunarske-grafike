@@ -1,6 +1,0 @@
-/home/lazar/Desktop/Projekat/cmake-build-debug/CMakeFiles/edit_cache.dir
-/home/lazar/Desktop/Projekat/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/home/lazar/Desktop/Projekat/cmake-build-debug/CMakeFiles/Projekat.dir
-/home/lazar/Desktop/Projekat/cmake-build-debug/external/glad/CMakeFiles/edit_cache.dir
-/home/lazar/Desktop/Projekat/cmake-build-debug/external/glad/CMakeFiles/rebuild_cache.dir
-/home/lazar/Desktop/Projekat/cmake-build-debug/external/glad/CMakeFiles/glad.dir
