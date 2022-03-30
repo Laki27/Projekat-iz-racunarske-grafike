@@ -1,0 +1,8 @@
+cmake_minimum_required(VERSION 3.20)
+project(Projekat)
+include_directories(include/)
+find_package(OpenGL REQUIRED)
+add_subdirectory(external/glad)
+set(CMAKE_CXX_STANDARD 17)
+add_executable(Projekat main.cpp include/Shader.h include/stb_image.h stb_image.cpp)
+target_link_libraries(Projekat glfw glad OpenGL::GL pthread X11 Xrandr Xi dl assimp)
